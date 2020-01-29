@@ -14,4 +14,5 @@ npm install
 
 ## Run the Commands
 `npm run build` builds the application to `public/bundle.js`, along with a sourcemap file for debugging.
+
 `npm start` launches a server
