@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html>
+<head lang='en'>
+	<meta charset='utf-8'>
+	<!-- This is for Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" ></script>
+	<!-- Stops from the Bootstrap -->
+	<meta name='viewport' content='width=device-width'>
+	<title>This is a Sorted List of the Cats</title>
+
+	<style>
+		body {
+			font-family: 'Helvetica Neue', Arial, sans-serif;
+			background-color: black;
+			color: white;
+			font-weight: 300;
+		}
+		#title{
+			padding-left: 350px;
+		}
+		img{
+			width:33%;
+			height:300px;
+		};
+		.Caption{
+			font-weight: 300;
+		};
+	</style>
+</head>
+<body>
+	<!--This will be a navigation bar-->
+	<nav class = "navbar navbar-inverse">
+		<div class = "Container-fluid">
+			<a class = "navbar-brand" href="index.html">Gallery</a>
+		</div>
+		<div class = "collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="dropdown">
+					<a href ="#" class="dropdown-toggle" data-toggle="dropdown" role = "button"
+					aria-haspopup="true" aria-expanded="false">Pick Your Poison
+					<span class ="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="Category.html" id="pics">Kittens</a>
+						</li>
+						<li><a href="Category.html" id="pics">Cats</a>
+						</li>
+						<li><a href="Category.html" id="pics">Older Cats</a>
+						</li>
+					</ul>
+					
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<h1 id = "title">This is my favorite Cat</h1>
+
+	<!--<p>The time is <span id='time-now'>...</span></p>
+	<script src='bundle.js'></script>-->
+	<!-- <img src="smiley.gif" alt="Smiley face" height="42" width="42">-->
+	<img src = "/Photo/Kitten01.jpeg" alt="kitten01">
+
+
+</body>
+</html>
