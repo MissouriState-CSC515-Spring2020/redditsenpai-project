@@ -2,7 +2,7 @@
 
 This readme is for my project for Spring 2020 515 course
 
-## Startting up the Project
+## Starting up the Project
 
 Clone this repo and install its dependencies:
 
