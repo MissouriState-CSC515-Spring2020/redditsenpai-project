@@ -21,7 +21,7 @@ export default function App() {
   return (
     <Router>
       <Nav className = "navbar navbar-expand-lg navbar-inverse navbar-full">
-        <Nav.Link href = "/General" style = {{
+        <Nav.Link href = "/" style = {{
           color: "white",
           fontweight: "bold"
         }}>
@@ -48,7 +48,7 @@ export default function App() {
       </Nav>
 
       <Switch>
-        <Route exact path = "/General">
+        <Route exact path = "/">
           <General />
         </Route>
         <Route path = "/Music">
