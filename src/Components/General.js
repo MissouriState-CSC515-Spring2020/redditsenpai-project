@@ -7,7 +7,7 @@ class General extends Component {
       <div className="general">
         <div className="general-header">
           <img src={logo} className="gerneral-logo" alt="logo" />
-          <h2>Welcome to my Checkpoint 6!</h2>
+          <h2>Welcome to my Project!</h2>
         </div>
       </div>
     );
